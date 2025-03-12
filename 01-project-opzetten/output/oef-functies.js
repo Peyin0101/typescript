@@ -28,3 +28,4 @@ const person = {
     },
 };
 person.startTimer();
+//# sourceMappingURL=oef-functies.js.map

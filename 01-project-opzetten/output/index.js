@@ -41,3 +41,4 @@ var Colors;
 })(Colors || (Colors = {}));
 const favoriteColor = Colors.Green;
 console.log(favoriteColor); // Outputs: "#00FF00"
+//# sourceMappingURL=index.js.map
