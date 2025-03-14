@@ -9,6 +9,17 @@ class Auto {
     this.bouwjaar = bouwjaar;
   }
 
+  get beschrijving(): string {
+    return `${this.merk} ${this.model}`;
+  }
+  set jaar(value: number) {
+    if (value > 2000) {
+      this.bouwjaar = value;
+    } else {
+      console.log("Voer een geldig bouwjaar in.");
+    }
+  }
+
   toonDetails() {
     console.log(`${this.merk} ${this.model} (Bouwjaar: ${this.bouwjaar}).`);
   }
