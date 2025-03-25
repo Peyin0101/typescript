@@ -32,12 +32,16 @@ class PriorityQueue<T> {
   }
 
   dequeue(): T | undefined {
-    return this.elements.shift()?.value;
+    const element = this.elements.shift();
+    if (element) {
+      return element.value;
+    }
+    return undefined;
   }
 
   peek(): T | undefined {
-    if (this.elements.length > 0) {
-      return this.elements[0]?.value;
+    if (this.elements.length > 0 && this.elements[0]) {
+      return this.elements[0].value;
     }
     return undefined;
   }
