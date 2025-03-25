@@ -32,9 +32,9 @@ playingCards.addCard("Klaveren 10");
 playingCards.addCard("Ruiten 7");
 playingCards.addCard("Schoppen Vrouw");
 playingCards.addCard("Harten Koning");
-console.log(playingCards.countCards()); // Outputs: 2
-console.log(playingCards.drawCard()); // Outputs: (willekeurig) "Harten Aas" of "Klaveren 10"
-console.log(playingCards.countCards()); // Outputs: 1
+console.log(playingCards.countCards()); // Outputs: 5
+console.log(playingCards.drawCard()); // Outputs: (willekeurig)
+console.log(playingCards.countCards()); // Outputs: 4
 console.log(playingCards.findCard((card) => card === "Klaveren 10")); // Outputs: "Klaveren 10"
 console.log("Voor shuffle:", [...playingCards["cards"]]);
 playingCards.shuffle();
