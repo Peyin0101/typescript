@@ -53,3 +53,4 @@ let mijnData = "Idris danst ballet";
 let externeInput = "Elke dag in zijn tutu";
 console.log(`Mijn data: ${mijnData}`);
 console.log(`Externe input: ${externeInput}`);
+//# sourceMappingURL=oef.js.map
